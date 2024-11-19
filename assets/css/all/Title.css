@@ -1,0 +1,10 @@
+.section-title {
+  margin: 20px 0;
+}
+
+.section-title h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+}

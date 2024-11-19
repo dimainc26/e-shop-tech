@@ -1,0 +1,81 @@
+.p-title {
+  font-weight: bold;
+}
+
+/* Color Options */
+.color-option {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #ddd;
+  transition: border-color 0.3s;
+}
+
+.color-option:hover {
+  border-color: var(--green-color);
+}
+
+/* Quantity Selector */
+.quantity-control {
+  width: 120px;
+  justify-content: space-between;
+  background-color: var(--neutral-color) !important;
+  border-radius: 5px;
+  border-color: transparent !important;
+  border-radius: 20px;
+}
+
+.quantity-control button {
+  background-color: #f8f8f8;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.quantity-control span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.rest-text {
+  color: black !important;
+}
+
+/* Action Buttons */
+.btn-success {
+  background-color: var(--green-color);
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.btn-success:hover {
+  background-color: var(--green-color);
+}
+
+.btn-outline-success {
+  border: 2px solid var(--green-color);
+  font-size: 1rem;
+  color: #064e3b;
+  border-radius: 8px;
+}
+
+.btn-outline-success:hover {
+  background-color: #064e3b;
+  color: #fff;
+}
+
+/* Delivery and Return Information */
+.info-box {
+  background-color: #f8f8f8;
+}
+
+.info-box i {
+  font-size: 1.5rem;
+}
+
+.info-box p {
+  font-size: 0.85rem;
+}

@@ -1,0 +1,19 @@
+@import "./fonts.css";
+@import "./import.css";
+
+:root {
+  --green-color: #003d29;
+  --neutral-color: #f6f7f8;
+  --font-britannica: "Britanica";
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+input.form-control:focus {
+  outline: none !important;
+  background-color: var(--neutral-color);
+  /* border-color: transparent !important; */
+  box-shadow: none;
+}

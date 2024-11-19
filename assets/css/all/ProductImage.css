@@ -1,0 +1,24 @@
+.product-img {
+}
+
+.main-image {
+  background-color: var(--neutral-color);
+}
+
+.product-mini-img {
+}
+
+/* Thumbnail Images */
+.thumbnail-image {
+  background-color: var(--neutral-color);
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.thumbnail-image:hover {
+  border: 2px solid var(--green-color);
+}

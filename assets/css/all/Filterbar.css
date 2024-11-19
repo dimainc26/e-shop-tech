@@ -1,0 +1,28 @@
+filter-bar .btn {
+  font-size: 0.9rem;
+  padding: 8px 15px;
+  background-color: var(--neutral-color);
+  color: #333;
+}
+
+.btn:hover {
+  background-color: #eaeaea;
+}
+
+.btn i {
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+
+.btn-outline-secondary {
+  color: #333;
+  border-color: #ddd;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #f5f5f5;
+}
+
+button.btn.sort:hover {
+  background-color: var(--green-color);
+}

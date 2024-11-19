@@ -1,0 +1,32 @@
+.header {
+  background-color: #fdf4ec;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-family: var(--font-britanica);
+  font-weight: bold;
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.header-text {
+  color: var(--green-color);
+}
+
+.btn-success {
+  background-color: var(--green-color);
+  border-color: var(--green-color);
+  border-radius: 24px;
+  padding: 6px 24px !important;
+}
+
+.btn-success:hover {
+  background-color: #05643b;
+  border-color: #05643b;
+}

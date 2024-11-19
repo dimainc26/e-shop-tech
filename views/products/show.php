@@ -1,0 +1,1 @@
+<h3>Product n: <?= $params['product']->name ?> </h3>

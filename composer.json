@@ -1,0 +1,17 @@
+{
+  "name": "dima/e-shop-tech",
+  "autoload": {
+    "psr-4": {
+      "Router\\": "routes/",
+      "App\\": "app/",
+      "Database\\": "database/"
+    }
+  },
+  "authors": [
+    {
+      "name": "dimainc26",
+      "email": "dimazanre@gmail.com"
+    }
+  ],
+  "require": {}
+}
